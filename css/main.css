@@ -4,6 +4,11 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Gravitas One', cursive;
+font-family: 'Rammetto One', cursive;
+font-family: 'Comfortaa', cursive; */
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
@@ -16,14 +21,41 @@ html {
   box-sizing: inherit;
 }
 
+h2 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+article {
+  margin-top: .5em;
+}
 .watermelon {
   background-color: #e97065;
+}
+
+.watermelon h2 {
+  font-family: 'Rammetto One', cursive;
 }
 
 .starfruit {
   background-color: #fbd25e;
 }
 
+.starfruit h2 {
+  font-family: 'Gravitas One', cursive;
+}
+
 .persimmon {
   background-color: #e86033;
+}
+
+.persimmon h2 {
+  font-family: 'Comfortaa', cursive
 }
